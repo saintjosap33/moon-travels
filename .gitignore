@@ -1,0 +1,26 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+*.log
+
+# Build artifacts
+out/
+*.class
+
+# Local Java dependency/build files
+*.jar
+
+# Backup files
+backend/controllers_backup/
+backend/routes_backup/
+backend/*backup*
+backend/*before-crud*
+
+# Obsolete/temporary text files
+backend/controllers/*.txt
+backend/routes/*.txt
+backend/server.js
+backend/controllers/packageController.before-crud.js
+backend/routes/packageRoutes.before-crud.js
