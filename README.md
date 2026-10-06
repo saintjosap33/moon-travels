@@ -6,7 +6,7 @@ A complete, production-ready Travel Agency Management System built with React, T
 
 **Moon Travels** is a comprehensive DBMS project demonstrating:
 - Real CRUD operations with a normalized relational database
-- Complete business workflow: Customer → Package → Booking → Passengers → Payment → Receipt → Reports
+- Complete business workflow: Customer â Package â Booking â Passengers â Payment â Receipt â Reports
 - Financial management and income tracking
 - Educational DBMS concepts (normalization, ER diagrams, transactions, views, indexes)
 - Professional UI with role-based access control
@@ -50,9 +50,9 @@ A complete, production-ready Travel Agency Management System built with React, T
 - Fields: paymentReference, paymentDate, amount, paymentMethod, paymentStatus, transactionReference
 
 **Junction Tables**
-- PackageDestinations: Links TravelPackages ↔ Destinations
-- PackageAccommodations: Links TravelPackages ↔ Accommodations
-- PackageTransportation: Links TravelPackages ↔ Transportation
+- PackageDestinations: Links TravelPackages â Destinations
+- PackageAccommodations: Links TravelPackages â Accommodations
+- PackageTransportation: Links TravelPackages â Transportation
 
 ### Supporting Tables
 
@@ -140,7 +140,7 @@ Raw data with repeating groups (destinations, accommodations, passengers within 
 - Junction table explanations
 
 #### Normalization Guide
-- UNF → 1NF → 2NF → 3NF progression
+- UNF â 1NF â 2NF â 3NF progression
 - Real examples from Moon Travels schema
 - Benefits of normalization
 
@@ -227,32 +227,32 @@ Role: Admin
 
 ```
 apps/moon-travels/
-├── src/
-│   ├── api/
-│   │   ├── login.ts
-│   │   └── [other endpoints]
-│   ├── components/
-│   │   └── Sidebar.tsx
-│   ├── pages/
-│   │   ├── Dashboard.tsx
-│   │   ├── Customers.tsx
-│   │   ├── Packages.tsx
-│   │   ├── Bookings.tsx
-│   │   ├── Payments.tsx
-│   │   ├── Receipts.tsx
-│   │   ├── Income.tsx
-│   │   ├── Reports.tsx
-│   │   ├── Reviews.tsx
-│   │   ├── SchemaExplorer.tsx
-│   │   ├── ERDiagram.tsx
-│   │   ├── Normalization.tsx
-│   │   ├── ViewsIndexes.tsx
-│   │   ├── Transactions.tsx
-│   │   └── QueryLab.tsx
-│   ├── App.tsx
-│   └── index.css
-├── zite.config.json
-└── README.md
+âââ src/
+â   âââ api/
+â   â   âââ login.ts
+â   â   âââ [other endpoints]
+â   âââ components/
+â   â   âââ Sidebar.tsx
+â   âââ pages/
+â   â   âââ Dashboard.tsx
+â   â   âââ Customers.tsx
+â   â   âââ Packages.tsx
+â   â   âââ Bookings.tsx
+â   â   âââ Payments.tsx
+â   â   âââ Receipts.tsx
+â   â   âââ Income.tsx
+â   â   âââ Reports.tsx
+â   â   âââ Reviews.tsx
+â   â   âââ SchemaExplorer.tsx
+â   â   âââ ERDiagram.tsx
+â   â   âââ Normalization.tsx
+â   â   âââ ViewsIndexes.tsx
+â   â   âââ Transactions.tsx
+â   â   âââ QueryLab.tsx
+â   âââ App.tsx
+â   âââ index.css
+âââ zite.config.json
+âââ README.md
 ```
 
 ## Database Constraints & Integrity
@@ -329,20 +329,20 @@ The database includes realistic Indian travel agency data:
 7. **CRUD Operations**: Walk through creating, reading, updating, deleting records
 8. **Financial Calculations**: Show how income is calculated from real database data
 9. **Views & Reports**: Explain how views simplify complex queries
-10. **Real-World Workflow**: Trace complete booking → payment → receipt flow
+10. **Real-World Workflow**: Trace complete booking â payment â receipt flow
 
 ## Key Learning Outcomes
 
-✓ Relational database design and normalization
-✓ Complex SQL queries with JOINs and aggregations
-✓ Transaction management and ACID properties
-✓ Database indexing and optimization
-✓ Referential integrity and constraints
-✓ Real-world business logic implementation
-✓ Full-stack application development
-✓ API design and REST principles
-✓ User interface for data management
-✓ Financial calculations and reporting
+â Relational database design and normalization
+â Complex SQL queries with JOINs and aggregations
+â Transaction management and ACID properties
+â Database indexing and optimization
+â Referential integrity and constraints
+â Real-world business logic implementation
+â Full-stack application development
+â API design and REST principles
+â User interface for data management
+â Financial calculations and reporting
 
 ## Future Enhancements
 
@@ -370,4 +370,9 @@ For questions about the implementation or database design, refer to:
 
 ---
 
-**Built with ❤️ for learning database management systems**
+**Built with â¤ï¸ for learning database management systems**
+
+
+---
+
+[![Restore to zite](https://img.shields.io/badge/Restore%20to-ZITE-orange?style=for-the-badge&logo=rocket)](https://build.fillout.com)
